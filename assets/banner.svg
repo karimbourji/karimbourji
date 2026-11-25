@@ -35,7 +35,7 @@
   </g>
 
   <!-- left: identity -->
-  <text x="64" y="84"  class="mono mute" font-size="16">~/kareemzcode</text>
+  <text x="64" y="84"  class="mono mute" font-size="16">~/karimbourji</text>
   <text x="64" y="160" class="sans ink"  font-size="64" font-weight="700" letter-spacing="-1.5">Karim Bourji</text>
   <text x="64" y="204" class="sans mute" font-size="24">Lead Software Engineer · Full-stack &amp; mobile</text>
   <text x="64" y="262" class="mono ink"  font-size="16">TypeScript <tspan class="mute">/</tspan> Next.js <tspan class="mute">/</tspan> React Native <tspan class="mute">/</tspan> PostgreSQL <tspan class="mute">/</tspan> Supabase</text>
