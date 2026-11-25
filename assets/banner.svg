@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Karim Bourji — Lead Software Engineer. Based in Beirut, working with teams in Lebanon, the UK, Kuwait and the UAE.">
+  <style>
+    .bg   { fill: #fafafa; }
+    .grid { stroke: #e6e6e6; }
+    .ink  { fill: #111111; }
+    .mute { fill: #6b6b6b; }
+    .line { stroke: #b5b5b5; }
+    .node { fill: #fafafa; stroke: #111111; }
+    .hub  { fill: #111111; }
+    .ring { stroke: #111111; fill: none; }
+    .acc  { fill: #111111; }
+    .frame { stroke: #e2e2e2; }
+    @media (prefers-color-scheme: dark) {
+      .bg   { fill: #0d1117; }
+      .grid { stroke: #1b222c; }
+      .ink  { fill: #e6edf3; }
+      .mute { fill: #8b949e; }
+      .line { stroke: #3d4651; }
+      .node { fill: #0d1117; stroke: #e6edf3; }
+      .hub { fill: #e6edf3; }
+      .ring { stroke: #e6edf3; }
+      .acc { fill: #e6edf3; }
+      .frame { stroke: #262f3a; }
+    }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  </style>
+
+  <rect class="bg frame" x=".5" y=".5" width="1279" height="319" rx="14" stroke-width="1"/>
+
+  <!-- subtle grid -->
+  <g class="grid" stroke-width="1">
+    <path d="M0 80H1280M0 160H1280M0 240H1280"/>
+    <path d="M160 0V320M320 0V320M480 0V320M640 0V320M800 0V320M960 0V320M1120 0V320"/>
+  </g>
+
+  <!-- left: identity -->
+  <text x="64" y="84"  class="mono mute" font-size="16">~/kareemzcode</text>
+  <text x="64" y="160" class="sans ink"  font-size="64" font-weight="700" letter-spacing="-1.5">Karim Bourji</text>
+  <text x="64" y="204" class="sans mute" font-size="24">Lead Software Engineer · Full-stack &amp; mobile</text>
+  <text x="64" y="262" class="mono ink"  font-size="16">TypeScript <tspan class="mute">/</tspan> Next.js <tspan class="mute">/</tspan> React Native <tspan class="mute">/</tspan> PostgreSQL <tspan class="mute">/</tspan> Supabase</text>
+
+  <!-- right: where the work goes (positions loosely follow real geography) -->
+  <g class="line" stroke-width="1.5" stroke-dasharray="4 6" fill="none">
+    <path d="M980 170 Q 880 70 772 92"/>
+    <path d="M980 170 Q 1050 150 1100 196"/>
+    <path d="M980 170 Q 1060 260 1196 254"/>
+  </g>
+
+  <circle class="ring" cx="980" cy="170" r="15" stroke-width="1.5" opacity="0.45"/>
+  <circle class="hub"  cx="980" cy="170" r="7"/>
+  <circle class="node" cx="772"  cy="92"  r="6" stroke-width="2"/>
+  <circle class="node" cx="1100" cy="196" r="6" stroke-width="2"/>
+  <circle class="node" cx="1196" cy="254" r="6" stroke-width="2"/>
+
+  <g class="mono" font-size="14">
+    <text x="980"  y="144" text-anchor="middle" class="ink" font-weight="700">BEIRUT</text>
+    <text x="772"  y="72"  text-anchor="middle" class="mute">UK</text>
+    <text x="1114" y="201" class="mute">KUWAIT</text>
+    <text x="1196" y="286" text-anchor="middle" class="mute">UAE</text>
+  </g>
+</svg>
